@@ -1,0 +1,59 @@
+commande:
+	commande_id
+	commande_date
+	commande_reduc
+	commande_prix_tot
+	commande_date_regle
+	commande_date_facture
+	commande_livraison_cp
+	commande_livraisn_rue
+	commande_livraison_ville
+	commande_etat
+	commande_facturation_rue
+	commande_facturation_ville
+	commande_facturation_cp
+
+produit:
+	produit_nom_court
+	produit_nom
+	produi_photo
+	prduit_quantit
+	produit_prix_HT
+	produit_quantit_ale
+
+fournisseur:
+	fournisseur_nom
+	fournisseur_rue
+	fournisseur_cp
+	fournisseur_ville
+	fournisseur_tel
+	fournisseur_nom_contact
+	fournisseur_prenom_contact
+
+sous_catégories:
+	souscategorie_nom
+	souscategorie_desc
+
+catégories:
+	categ_nom
+	categ_desc
+
+livraison:
+	livraison_num_bon
+	livraison_date
+	livraison_etat
+
+client:
+	client_nom
+	client_rue
+	client_ville
+	client_cp
+	client_tel
+	client_mail
+	client_type
+	client_siret
+
+commerciaux:
+	commerciaux_nom
+	commerciaux_prenom
+	commerciaux_tel
